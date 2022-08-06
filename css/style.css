@@ -1,0 +1,33 @@
+.barra-topo{
+    background-color: red;
+    height: 54px;
+
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid gray;
+
+    display: flex;
+    justify-content: center;
+}
+
+.barra-topo .menu{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 934px;
+    height: 54px;
+}
+
+.barra-topo .menu img:nth-child(1){
+    height: 22px;
+}
+.barra-topo .menu img:nth-child(2){
+    height: 29px;
+}
+
+.conteudo{
+    background-color: blue;
+    height: 2000px;
+}
